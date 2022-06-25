@@ -5,8 +5,8 @@ body {
   align-items: center;
 }
 
-.container {
-  height: 80vh;  
+.container {  
+  width: clamp(500px, 80%, 1500px);  
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 1fr 5fr 1fr;
